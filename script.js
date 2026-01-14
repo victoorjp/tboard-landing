@@ -8,8 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
         button.addEventListener("click", () => {
             const isDark = body.getAttribute("data-theme") === "dark";
             body.setAttribute("data-theme", isDark ? "light" : "dark");
-            icon.src = isDark ? "/img/darktheme.svg" : "/img/lighttheme.svg";
-            logo.src = isDark ? "/img/logoblack.png" : "/img/logowhite.png";
+            icon.src = isDark ? "./img/darktheme.svg" : "./img/lighttheme.svg";
+            logo.src = isDark ? "./img/logoblack.png" : "./img/logowhite.png";
         });
     }
 
